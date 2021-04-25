@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="fon">#DAEA92</color>
+
+    <color name="button">#1c8a1c</color>
+    <color name="mygrey">#8E8B8B</color>
+    <color name="fon_top">#948125</color>
+    <color name="mygrey1">#d9d9d9</color>
+    <color name="lightgrey">#C8C8C8</color>
+</resources>

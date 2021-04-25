@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fon">
+
+
+
+    <TextView
+        android:id="@+id/activity_title_start_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:elegantTextHeight="true"
+        android:gravity="center"
+        android:text="Вход на сайт"
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/activity_start_but_a"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/activity_title_start_a"
+        android:layout_marginTop="125dp"
+        android:text="Войти по единой записи СПБПУ"
+        android:textSize="21sp"
+        android:background="@color/button"
+        android:textColor="@color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/activity_help_start_but_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/activity_start_but_a"
+        android:layout_marginTop="10dp"
+        android:text="Как получить логин и пароль?"
+        android:textSize="14sp"
+        android:background="@color/fon"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>

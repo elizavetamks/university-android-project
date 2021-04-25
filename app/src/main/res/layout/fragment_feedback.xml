@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fon"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_cont_a"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="55dp"
+                android:layout_marginTop="30dp"
+                android:text="Выберите собеседника из доступных контактов для отправки сообщения"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="21sp"
+                android:textStyle="bold"/>
+
+            <TableLayout
+                android:id="@+id/table_cont_a"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp">
+
+                <TableRow
+                    android:id="@+id/table_cont1_a"
+                    android:background="@color/lightgrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Пользователь"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Должность"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="12dp"
+
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Написать на\n сайте"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginLeft="10dp"
+
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/table_cont2_a"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="@string/text1_cont"
+                        android:textColor="@color/black"
+                        android:textSize="21sp"
+                        android:layout_marginHorizontal="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/text2_cont"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/activity_cont2_but_a"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@color/button"
+                        android:text="Написать"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/table_cont3_a"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="@string/text3_cont"
+                        android:textColor="@color/black"
+                        android:textSize="21sp"
+                        android:layout_marginHorizontal="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/text4_cont"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/activity_cont3_but_a"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@color/button"
+                        android:text="Написать"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/table_cont4_a"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="@string/text5_cont"
+                        android:textColor="@color/black"
+                        android:textSize="21sp"
+                        android:layout_marginHorizontal="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/text6_cont"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/activity_cont4_but_a"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@color/button"
+                        android:text="Написать"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+                </TableRow>
+
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

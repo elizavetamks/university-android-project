@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fon"
+    >
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TableLayout
+                android:id="@+id/table1_ray_m"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp">
+
+
+                <TableRow
+                    android:id="@+id/table1_ray2_m"
+                    android:background="@color/lightgrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="ФИО"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginHorizontal="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Основная группа"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Основной институт"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/table1_ray3_m"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="@string/snf"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginHorizontal="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/group"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/institute"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table2_ray_m"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp">
+
+
+                <TableRow
+                    android:id="@+id/table2_ray1_m"
+                    android:background="@color/lightgrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Группа здоровья"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginHorizontal="10dp"
+                        />
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Специализация"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginHorizontal="30dp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/table2_ray2_m"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/h_group"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/spec"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table3_ray_m"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp">
+
+                <TableRow
+                    android:id="@+id/table3_ray1_m"
+                    android:background="@color/lightgrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="Баллы за посещение"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginHorizontal="10dp"
+                        />
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Баллы за нормативы"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Компенсационные баллы"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/table3_ray2_m"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="@string/point_visit"
+                        android:textColor="@color/black"
+                        android:textSize="21sp"
+                        android:layout_marginHorizontal="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/point_standard"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/point_compensation"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table4_ray_m"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp">
+
+                <TableRow
+                    android:id="@+id/table4_ray1_m"
+                    android:background="@color/lightgrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="Бонусные баллы"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginHorizontal="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Сумма баллов"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Место в топе"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/table4_ray2_m"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="@string/point_bonus"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginHorizontal="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/point_sum"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/top_position"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+
+                </TableRow>
+            </TableLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/synchronize_academic_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="Синхронизировать академическую группу"
+                android:textSize="18sp"
+                android:background="@color/button"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Текущая заявка"
+                android:textColor="@color/black"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                />
+            <TableLayout
+                android:background="@color/lightgrey"
+                android:id="@+id/table5_ray_m"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <TableRow
+                    android:id="@+id/table5_ray1_m"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Специализация"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="36dp"
+                        android:layout_marginHorizontal="0dp"
+                        />
+                    <TextView
+
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/spec"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginHorizontal="0dp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/table5_ray2_m"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Группы"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/lesson1"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/table5_ray3_m"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/lesson2"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/table5_ray4_m"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/lesson3"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/table5_ray5_m"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/lesson4"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/table5_ray6_m"
+                    android:background="@color/lightgrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Статус"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/lesson4"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/table5_ray7_m"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Обновлена"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/active"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/table5_ray8_m"
+                    android:background="@color/lightgrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Создана"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/create"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        />
+
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Группа здоровья"
+                android:textColor="@color/black"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                />
+            <TableLayout
+                android:id="@+id/table6_ray_m"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <TableRow
+                    android:id="@+id/table6_ray1_m"
+                    android:background="@color/lightgrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Группа здоровья"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginHorizontal="20dp"
+                        />
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/h_group"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginHorizontal="20dp"
+                        />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/table6_ray2_m"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Статус заявки"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginHorizontal="0dp"
+                        />
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/status"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginHorizontal="0dp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/table6_ray3_m"
+                    android:background="@color/lightgrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Подтверждающий документ"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginHorizontal="0dp"
+                        />
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/doc"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginHorizontal="0dp"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/table6_ray4_m"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Обновлена"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginHorizontal="0dp"
+                        />
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/h_update"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginHorizontal="0dp"
+                        />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/table6_ray5_m"
+                    android:background="@color/lightgrey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Создана"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginHorizontal="0dp"
+                        />
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/h_create"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginHorizontal="0dp"
+                        />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/table6_ray6_m"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Срок действия"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginHorizontal="0dp"
+                        />
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/h_period"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginHorizontal="0dp"
+                        />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

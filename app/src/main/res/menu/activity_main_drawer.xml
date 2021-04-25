@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_ifkst"
+            android:title="Главная" />
+
+        <item
+            android:id="@+id/nav_lk"
+            android:title="@string/lk"
+            />
+        <item
+            android:id="@+id/nav_timetable"
+            android:title="@string/timetable"/>
+        <item
+            android:id="@+id/nav_rating"
+            android:title="@string/rating"/>
+        <item
+            android:title="@string/calendar"
+            android:id="@+id/nav_calendar"/>
+        <item
+            android:title="@string/ads"
+            android:id="@+id/nav_ads"/>
+        <item
+            android:title="@string/UFZ"
+            android:id="@+id/nav_zaryadki"/>
+        <item
+            android:title="@string/app_dis"
+            android:id="@+id/nav_app_dis"/>
+        <item
+            android:title="@string/app_teams"
+            android:id="@+id/nav_choose_teams_list"/>
+        <item
+            android:title="@string/app_health"
+            android:id="@+id/nav_app_health_group"/>
+        <item
+            android:title="@string/feedback"
+            android:id="@+id/nav_feedback"/>
+        <item
+            android:title="@string/about_system"
+            android:id="@+id/nav_about_system"/>
+        <item
+            android:title="@string/exit"
+            android:id="@+id/nav_exit"/>
+    </group>
+</menu>

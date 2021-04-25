@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_ifkst">
+
+
+    <fragment
+        android:id="@+id/nav_ifkst"
+        android:name="com.example.poly_two.ui.IfkstFragment"
+        android:label="@string/home_str"
+        tools:layout="@layout/fragment_ifkst"
+        />
+
+    <fragment
+        android:id="@+id/nav_app_health_group"
+        android:name="com.example.poly_two.ui.HealthGroupFragment"
+        android:label="Группа здоровья"
+        tools:layout="@layout/fragment_app_health_group"
+        />
+
+    <fragment
+        android:id="@+id/nav_create_app_health_group"
+        android:name="com.example.poly_two.ui.CreateAppHealthGroupFragment"
+        android:label="Указать группу здоровья"
+        tools:layout="@layout/fragment_create_app_health_group"
+        />
+
+    <fragment
+        android:id="@+id/nav_app_teams"
+        android:name="com.example.poly_two.ui.ChooseComandFragment"
+        android:label="Выбор команды"
+        tools:layout="@layout/fragment_choose_comand"
+        />
+    <fragment
+        android:id="@+id/nav_about_system"
+        android:name="com.example.poly_two.ui.AboutSystemFragment"
+        android:label="О системе"
+        tools:layout="@layout/fragment_about_system"
+        />
+    <fragment
+        android:id="@+id/nav_zaryadki"
+        android:name="com.example.poly_two.ui.ListZaryadkiFragment"
+        android:label="Зарядки"
+        tools:layout="@layout/fragment_list_zaryadki"
+        />
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.poly_two.ui.LoginFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_login"
+        />
+    <fragment
+        android:id="@+id/nav_teams_spb_rus"
+        android:name="com.example.poly_two.ui.TeamsSPbRUSFragment"
+        android:label="Участие в сборных СПб/России"
+        tools:layout="@layout/fragment_teams_spb_rus"
+        />
+    <fragment
+        android:id="@+id/nav_choose_teams_list"
+        android:name="com.example.poly_two.ui.ChooseTeamsListFragment"
+        android:label="Сборные СПБПУ"
+        tools:layout="@layout/fragment_choose_teams_list"
+/>
+
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.example.poly_two.ui.FeedbackFragment"
+        android:label="Сборные СПБПУ"
+        tools:layout="@layout/fragment_feedback"
+        />
+
+    <fragment
+        android:id="@+id/nav_lk"
+        android:name="com.example.poly_two.ui.LKFragment"
+        android:label="Профиль студента"
+        tools:layout="@layout/fragment_lk"
+        />
+</navigation>
