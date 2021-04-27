@@ -1,103 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/fon">
+    android:background="@color/fon"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/activity_text1_gz_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginHorizontal="20dp"
+                android:gravity="center"
+                android:text="Введите название сборной\n и приложите документ"
+                android:textColor="@color/black"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/activity_name_us_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="40dp"
+                android:text="Название сборной:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="60dp"
+                android:hint="Введите название сборной"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/activity_doc_us_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="40dp"
+                android:text="Подтверждающий документ:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/activity_choose_us_but_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="60dp"
+                android:background="@color/white"
+                android:text="Выберите файл"
+                android:elegantTextHeight="true"
+                android:textSize="14sp"
+                android:textColor="@color/mygrey"
+                android:textStyle="bold"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/activity_save_us_but_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginHorizontal="100dp"
+                android:layout_marginBottom="50dp"
+                android:text="Сохранить"
+                android:textSize="15sp"
+                android:background="@color/button"
+                android:textColor="@color/white"/>
 
 
-
-    <TextView
-        android:id="@+id/activity_title_us_a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="30sp"
-        android:layout_marginLeft="20sp"
-        android:layout_centerInParent="true"
-        android:layout_alignParentTop="true"
-        android:elegantTextHeight="true"
-        android:text="Добавить участие в сборных СПб/России"
-        android:textColor="@color/black"
-        android:textSize="21sp"
-        android:textStyle="bold" />
-
-
-    <TextView
-        android:id="@+id/activity_name_us_a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/activity_doc_us_a"
-        android:layout_marginBottom="80dp"
-        android:layout_marginStart="30dp"
-        android:elegantTextHeight="true"
-        android:text="Название сборной:"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/activity_doc_us_a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_alignParentLeft="true"
-        android:layout_margin="30dp"
-        android:layout_marginTop="10dp"
-        android:elegantTextHeight="true"
-        android:text="Подтверждающий документ:"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/activity_file_us_a"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/activity_doc_us_a"
-        android:layout_centerInParent="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="45dp"
-        android:layout_marginTop="10dp"
-        android:elegantTextHeight="true"
-        android:text="Файл не выбран"
-        android:textColor="@color/mygrey"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/activity_choose_us_but_a"
-        android:layout_width="140dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/activity_doc_us_a"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="45dp"
-        android:background="@color/white"
-        android:text="Выберите файл"
-        android:elegantTextHeight="true"
-        android:textSize="14sp"
-        android:textColor="@color/mygrey"
-        android:textStyle="bold"/>
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/activity_save_us_but_a"
-        android:layout_width="140dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/activity_choose_us_but_a"
-        android:layout_margin="50dp"
-        android:layout_centerHorizontal="true"
-        android:text="Сохранить"
-        android:textSize="15sp"
-        android:background="@color/button"
-        android:textColor="@color/white"/>
-
-    <EditText
-        android:layout_width="250sp"
-        android:layout_height="50dp"
-        android:layout_above="@id/activity_doc_us_a"
-        android:layout_marginBottom="5dp"
-        android:layout_marginStart="45dp"
-        android:hint="  Введите название сборной"
-        android:background="@color/white"/>
-
-</RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

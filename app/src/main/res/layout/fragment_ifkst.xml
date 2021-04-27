@@ -1,84 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/fon">
 
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/activity_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="@string/student"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
 
 
+            <TextView
+                android:id="@+id/activity_FIO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/student_name"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
+            <TextView
+                android:id="@+id/activity_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Добро пожаловать на платформу института физической культуры, спорта и туризма Санкт-Петербургского Политехнического университета Петра Великого. Это приложение призвано помочь тебе с прохождением курса физической культуры."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
-    <TextView
+            <TextView
+                android:id="@+id/steps_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Для получения допуска к интересующим тебя занятиям необходимо последовательно пройти следующие этапы:"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
 
-        android:id="@+id/activity_ifkst"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="10sp"
-        android:layout_marginLeft="20sp"
-        android:layout_centerInParent="true"
-        android:layout_alignParentTop="true"
-        android:elegantTextHeight="true"
-        android:gravity="center"
-        android:text="Институт физической культуры, спорта и туризма"
-        android:textColor="@color/black"
-        android:textSize="21sp"
-        android:textStyle="bold" />
+            <TextView
+                android:id="@+id/step1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="1. Получить логин и пароль от личного кабинета СПбПУ и авторизоваться на портале ФКиС."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
 
+            <TextView
+                android:id="@+id/step2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="2. Пройти медосмотр в поликлинике по месту регистрации / поликлинике № 76, получить справку о группе здоровья, загрузить её фото или скан на сайте."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
 
+            <TextView
+                android:id="@+id/step3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="3. Отнести оригинал справки в дирекцию ИФКСТ, если подтверждение группы здоровья не было осуществлено поликлиникой. Дождаться подтверждения группы здоровья."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
 
+            <TextView
+                android:id="@+id/step4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="4. Подать заявку в группы специализации, в которых ты хочешь заниматься."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
 
+            <TextView
+                android:id="@+id/step5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="5. Необходимо дождаться уведомления о подтверждении заявки на вступление в группы специализации. В случае отказа необходимо создать другую заявку. "
+                android:textColor="@color/black"
+                android:textSize="15sp" />
 
-    <TextView
-        android:id="@+id/activity_info"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:text="Добро пожаловать на платформу института физической культуры, спорта и туризма Санкт-Петербургского Политехнического университета Петра Великого. Это приложение призвано помочь тебе с прохождением курса физической культуры."
-        android:textColor="@color/black"
-        android:textSize="18sp" />
+            <TextView
+                android:id="@+id/step6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="6. После одобрения заявки необходимо заполнить заявление в электронном виде, распечатать, подписать и сдать его в дирекцию ИФКСТ."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
 
-    <TextView
-        android:id="@+id/activity_status"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/activity_FIO"
-        android:gravity="center"
-        android:text="@string/student"
-        android:textColor="@color/black"
-        android:textSize="17sp" />
+            <TextView
+                android:id="@+id/step7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="left"
+                android:text="7. После уведомления о начале занятий необходимо приступить к прохождению курса ФКиС."
+                android:textColor="@color/black"
+                android:textSize="15sp" />
 
-    <TextView
-        android:id="@+id/activity_FIO"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_above="@id/activity_info"
-        android:layout_marginBottom="40dp"
-        android:gravity="center_horizontal"
-        android:text="@string/student_name"
-        android:textColor="@color/black"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <ImageView
-        android:layout_centerVertical="true"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
-        android:src="@drawable/logo_sk"
-        android:layout_below="@id/activity_info"
-        android:layout_centerInParent="true"
-        android:layout_alignParentBottom="true"
-
-        />
-
-</RelativeLayout>
-
-    <!--
-    <?xml version="1.0" encoding="utf-8"?>
-    <androidx.constraintlayout.widget.ConstraintLayout
-        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </androidx.constraintlayout.widget.ConstraintLayout>-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/logo_sk"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="50dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

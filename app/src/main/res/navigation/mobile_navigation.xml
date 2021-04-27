@@ -67,7 +67,7 @@
     <fragment
         android:id="@+id/nav_feedback"
         android:name="com.example.poly_two.ui.FeedbackFragment"
-        android:label="Сборные СПБПУ"
+        android:label="Обратная связь"
         tools:layout="@layout/fragment_feedback"
         />
 
@@ -76,5 +76,19 @@
         android:name="com.example.poly_two.ui.LKFragment"
         android:label="Профиль студента"
         tools:layout="@layout/fragment_lk"
+        />
+
+    <fragment
+        android:id="@+id/nav_rating"
+        android:name="com.example.poly_two.ui.RatingFragment"
+        android:label="Рейтинг"
+        tools:layout="@layout/fragment_rating"
+        />
+
+    <fragment
+        android:id="@+id/nav_ads"
+        android:name="com.example.poly_two.ui.AdsFragment"
+        android:label="Обьявления"
+        tools:layout="@layout/fragment_ads"
         />
 </navigation>

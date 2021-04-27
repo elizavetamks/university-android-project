@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -17,103 +18,97 @@
 
             <TextView
                 android:id="@+id/activity_help_team_a"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="135dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginHorizontal="50dp"
+                android:gravity="center"
                 android:text="Краткая справка"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/activity_help_team_a"
-                android:layout_marginLeft="20sp"
                 android:layout_marginTop="10dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginHorizontal="20dp"
                 android:gravity="center"
                 android:text="@string/text1_team"
-                android:textColor="@color/mygrey"
-                android:textSize="14sp" />
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20sp"
-                android:layout_marginRight="20dp"
+                android:layout_marginHorizontal="20dp"
                 android:gravity="center"
                 android:text="@string/text2_team"
-                android:textColor="@color/mygrey"
-                android:textSize="14sp" />
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20sp"
-                android:layout_marginRight="20dp"
+                android:layout_marginHorizontal="20dp"
                 android:gravity="center"
                 android:text="@string/text3_team"
-                android:textColor="@color/mygrey"
-                android:textSize="14sp" />
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20sp"
-                android:layout_marginRight="20dp"
+                android:layout_marginHorizontal="20dp"
                 android:gravity="center"
                 android:text="@string/text4_team"
-                android:textColor="@color/mygrey"
-                android:textSize="14sp" />
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20sp"
-                android:layout_marginRight="20dp"
+                android:layout_marginHorizontal="20dp"
                 android:gravity="center"
                 android:text="@string/text5_team"
-                android:textColor="@color/mygrey"
-                android:textSize="14sp" />
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20sp"
-                android:layout_marginRight="20dp"
+                android:layout_marginHorizontal="20dp"
                 android:gravity="center"
                 android:text="@string/text6_team"
-                android:textColor="@color/mygrey"
-                android:textSize="14sp" />
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20sp"
-                android:layout_marginRight="20dp"
+                android:layout_marginHorizontal="20dp"
                 android:gravity="center"
                 android:text="@string/text7_team"
-                android:textColor="@color/mygrey"
-                android:textSize="14sp" />
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_chl_team_but_a"
-                android:layout_width="140dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="135dp"
+                android:layout_marginHorizontal="70dp"
                 android:layout_marginTop="30dp"
-                android:background="@color/button"
                 android:text="Членство в сборных СПб/России"
-                android:textColor="@color/white"
-                android:textSize="15sp" />
+                android:textSize="15sp"
+                android:background="@color/button"
+                android:textColor="@color/white"/>
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_filters_team_but_a"
-                android:layout_width="140dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="135dp"
+                android:layout_marginHorizontal="70dp"
                 android:layout_marginTop="10dp"
                 android:background="@color/button"
                 android:text="Фильтры"
@@ -122,10 +117,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams1_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="30dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по автоспорту"
                 android:textColor="@color/mygrey"
@@ -133,10 +128,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams2_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по айкидо"
                 android:textColor="@color/mygrey"
@@ -144,10 +139,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams3_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по академической гребле"
                 android:textColor="@color/mygrey"
@@ -155,10 +150,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams4_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по алтимату"
                 android:textColor="@color/mygrey"
@@ -166,10 +161,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams5_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по армреслингу"
                 android:textColor="@color/mygrey"
@@ -177,10 +172,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams6_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по бадминтону"
                 android:textColor="@color/mygrey"
@@ -188,10 +183,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams7_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по баскетболу женская"
                 android:textColor="@color/mygrey"
@@ -199,10 +194,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams8_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по баскетболу женская профессиональная"
                 android:textColor="@color/mygrey"
@@ -210,10 +205,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams9_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по баскетболу мужская"
                 android:textColor="@color/mygrey"
@@ -221,10 +216,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams10_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по бильярду"
                 android:textColor="@color/mygrey"
@@ -232,10 +227,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams11_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по боксу, кикбоксингу, шахбоксу"
                 android:textColor="@color/mygrey"
@@ -243,10 +238,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams12_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по водному поло"
                 android:textColor="@color/mygrey"
@@ -254,10 +249,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams13_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по волейболу женская"
                 android:textColor="@color/mygrey"
@@ -265,10 +260,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams14_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по волейболу мужская"
                 android:textColor="@color/mygrey"
@@ -276,10 +271,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams15_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по вольной борьбе, греко-римской борьбе"
                 android:textColor="@color/mygrey"
@@ -287,10 +282,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams16_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по гандболу женская"
                 android:textColor="@color/mygrey"
@@ -298,10 +293,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams17_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по гандболу мужская"
                 android:textColor="@color/mygrey"
@@ -309,10 +304,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams18_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по гиревому спорту"
                 android:textColor="@color/mygrey"
@@ -320,10 +315,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams19_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по го"
                 android:textColor="@color/mygrey"
@@ -331,10 +326,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams20_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по горнолыжному спорту"
                 android:textColor="@color/mygrey"
@@ -342,10 +337,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams21_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по дзюдо"
                 android:textColor="@color/mygrey"
@@ -353,10 +348,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams22_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по единоборствам"
                 android:textColor="@color/mygrey"
@@ -364,10 +359,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams23_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по киберспорту"
                 android:textColor="@color/mygrey"
@@ -375,10 +370,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams24_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по летнему полиатлону"
                 android:textColor="@color/mygrey"
@@ -386,10 +381,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams25_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по легкой атлетике"
                 android:textColor="@color/mygrey"
@@ -397,10 +392,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams26_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по мини-футболу женская"
                 android:textColor="@color/mygrey"
@@ -408,10 +403,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams27_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по мини-футболу мужская"
                 android:textColor="@color/mygrey"
@@ -419,10 +414,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams28_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по настольному тенису"
                 android:textColor="@color/mygrey"
@@ -430,10 +425,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams29_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по пауэрлифтингу"
                 android:textColor="@color/mygrey"
@@ -441,10 +436,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams30_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по плаванию"
                 android:textColor="@color/mygrey"
@@ -452,10 +447,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams31_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по прыжкам на батуте"
                 android:textColor="@color/mygrey"
@@ -463,10 +458,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams32_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по регби"
                 android:textColor="@color/mygrey"
@@ -474,10 +469,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams33_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по скалолазанию"
                 android:textColor="@color/mygrey"
@@ -485,10 +480,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams34_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по спортивному ориентированию"
                 android:textColor="@color/mygrey"
@@ -496,10 +491,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams35_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по спортивному туризму"
                 android:textColor="@color/mygrey"
@@ -507,10 +502,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams36_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по спортивным танцам"
                 android:textColor="@color/mygrey"
@@ -518,10 +513,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams37_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по стрельбе из лука"
                 android:textColor="@color/mygrey"
@@ -529,10 +524,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams38_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по тайскому боксу"
                 android:textColor="@color/mygrey"
@@ -540,10 +535,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams39_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по тенису"
                 android:textColor="@color/mygrey"
@@ -551,10 +546,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams40_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по футболу женская"
                 android:textColor="@color/mygrey"
@@ -562,10 +557,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams41_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по футболу мужская"
                 android:textColor="@color/mygrey"
@@ -573,10 +568,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams42_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по хоккею"
                 android:textColor="@color/mygrey"
@@ -584,10 +579,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams43_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по художественной гимнастике"
                 android:textColor="@color/mygrey"
@@ -595,10 +590,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams44_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по чирлидингу"
                 android:textColor="@color/mygrey"
@@ -606,10 +601,10 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams45_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
                 android:background="@color/white"
                 android:text="Сборная по шахматам"
                 android:textColor="@color/mygrey"
@@ -617,10 +612,11 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/activity_teams46_team_but_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginBottom="50dp"
                 android:background="@color/white"
                 android:text="Сборная по шашкам"
                 android:textColor="@color/mygrey"

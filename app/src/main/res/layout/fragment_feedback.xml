@@ -12,15 +12,15 @@
         android:layout_height="wrap_content">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/text_cont_a"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="55dp"
+                android:layout_marginHorizontal="10sp"
                 android:layout_marginTop="30dp"
                 android:text="Выберите собеседника из доступных контактов для отправки сообщения"
                 android:gravity="center"
@@ -42,6 +42,11 @@
                     android:gravity="center_horizontal"
                     >
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" "
+                        />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -80,6 +85,11 @@
                         android:layout_marginLeft="10dp"
 
                         />
+
+                    <TextView
+                        android:layout_width="111dp"
+                        android:layout_height="wrap_content"
+                        android:text=" " />
                 </TableRow>
 
                 <TableRow

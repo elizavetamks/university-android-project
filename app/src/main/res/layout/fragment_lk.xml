@@ -22,7 +22,9 @@
                 android:id="@+id/table1_ray_m"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30dp">
+                android:layout_marginTop="30dp"
+                android:shrinkColumns="*">
+
 
 
                 <TableRow
@@ -115,7 +117,8 @@
                 android:id="@+id/table2_ray_m"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30dp">
+                android:layout_marginTop="30dp"
+                android:shrinkColumns="*">
 
 
                 <TableRow
@@ -185,7 +188,8 @@
                 android:id="@+id/table3_ray_m"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30dp">
+                android:layout_marginTop="30dp"
+                android:shrinkColumns="*">
 
                 <TableRow
                     android:id="@+id/table3_ray1_m"
@@ -276,7 +280,8 @@
                 android:id="@+id/table4_ray_m"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30dp">
+                android:layout_marginTop="30dp"
+                android:shrinkColumns="*">
 
                 <TableRow
                     android:id="@+id/table4_ray1_m"
@@ -390,7 +395,8 @@
                 android:id="@+id/table5_ray_m"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="10dp"
+                android:shrinkColumns="*">
 
                 <TableRow
                     android:id="@+id/table5_ray1_m"
@@ -649,7 +655,8 @@
                 android:id="@+id/table6_ray_m"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="10dp"
+                android:shrinkColumns="*">
 
                 <TableRow
                     android:id="@+id/table6_ray1_m"

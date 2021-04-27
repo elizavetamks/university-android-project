@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fon"
+    >
+    <ImageButton
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/activity_polImageButton"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:background="@color/fon"
+        android:src="@drawable/pol_min"
+        />
+
+    <TextView
+        android:id="@+id/ads_messages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="22sp"
+        android:layout_marginLeft="20sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:elegantTextHeight="true"
+        android:layout_marginTop="500dp"
+        android:gravity="center"
+        android:text="Объявдения и сообщения"
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        />
+
+    <ImageButton
+        android:id="@+id/activity_bellImageButton"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="20sp"
+        android:layout_alignParentRight="true"
+        android:background="@color/fon"
+        android:src="@drawable/bell_min"
+        />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/search_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="75dp"
+                android:layout_marginBottom="10dp"
+                android:elegantTextHeight="true"
+                android:text="Поиск по ФИО"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/after_search_name"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginStart="30dp"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/search_period"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="10dp"
+                android:elegantTextHeight="true"
+                android:gravity="center"
+                android:text="Поиск по периоду в формате дд.мм.гггг. \n(Проавая граница не включительно)"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:id="@+id/table1_ray_m"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:id="@+id/table1_ray1_m"
+                    android:background="@color/fon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    >
+
+                    <Spinner
+                        android:id="@+id/search_period_begin"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:background="@color/white" />
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:elegantTextHeight="true"
+                        android:text="-"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <Spinner
+                        android:id="@+id/search_period_finish"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:background="@color/white" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/table1_ray2_m"
+                    android:background="@color/fon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/show"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:text="показать"
+                        android:textSize="15sp"
+                        android:background="@color/button"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="75dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:elegantTextHeight="true"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/reset_filters"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:text="сбросить фильтры"
+                        android:textSize="15sp"
+                        android:background="@color/button"
+                        android:textColor="@color/white"/>
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/table2_ray_m"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:id="@+id/table2_ray1_m"
+                    android:background="@color/fon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/incoming_messages"
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:text="входящие"
+                        android:textSize="15sp"
+                        android:background="@color/button"
+                        android:textColor="@color/white"/>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:elegantTextHeight="true"
+                        android:text=" "
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/sent_messages"
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_centerHorizontal="true"
+                        android:text="отправленные"
+                        android:textSize="15sp"
+                        android:background="@color/button"
+                        android:textColor="@color/white"/>
+                </TableRow>
+            </TableLayout>
+
+            <Spinner
+                android:id="@+id/ads_and_messages"
+                android:layout_width="350dp"
+                android:layout_height="325dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="30dp"
+                android:background="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
